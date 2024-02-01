@@ -34,8 +34,18 @@
 }
 a {
 cursor: pointer;
+border-radius: 10em;
 box-shadow: 0 0 0 0 black;
 }
+a:hover {
+transform: translateY(-4px) translateX(-2px);
+box-shadow: 2px 5px 0 0 black;
+};
+
+a:active {
+transform: translateY(2px) translateX(1px);
+box-shadow: 0 0 0 0 black;
+};
 
 img {
     
@@ -58,11 +68,14 @@ img{
 
 </style>
 </head>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark data-bs-toggle">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark data-bs-toggle" style="background:linear-gradient(to left,#182fc0,#2234AE);">
+    <div class="container-fluid " style="font-size:14px;color:rgb(255, 251, 251);font-weight:bolder;">
+      +91 93989 75014
+    </div>
+  </nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark data-bs-toggle" style="--bs-bg-opacity:0; font-weight: bold;">
     <div class="container-fluid p-2">
-      <a class="navbar-brand" href="index.html">Hyderabad SAP Academy</a>
-      
+      <a class="navbar-brand" style="font-size:35px; background: linear-gradient(to bottom, #57b9cf, rgb(49, 220, 188));-webkit-background-clip: text;background-clip: text;color: transparent;" href="index.html"><img src="/logoo.ico" style="width:45px;height:45px;border-radius:20px">Hyderabad SAP Academy</a>
         <ul class="navbar-nav">
           
           <li class="nav-item dropdown">
@@ -84,10 +97,9 @@ img{
   </nav>
   <br>
   
-<body  background-image: "hi.jpg";>
- <div class="container">   
-   <center> <h1 style="font-family: 'Times New Roman', Times, serif">Contact Form</h1> </center>
-<form id="contact_form" name="contact_form" method="post" action="mailto:ashwin10e.vhs@gmail.com"><br><br><br>
+<body  style="background: linear-gradient(320deg,#009FC2 2%,#2234AE 100%,#040e2d 100%);">
+ <div class="container">
+<form id="contact_form"><br><br><br>
     <div class="mb-5 row">
         <div class="col">
          
